@@ -1,2 +1,2 @@
-rubibot
+PyRubikaBotAPI
 requests
