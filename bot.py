@@ -37,7 +37,7 @@ OFFSET_FILE = os.path.join(DATA_DIR, "offset.txt")
 ORDERS_FILE = os.path.join(DATA_DIR, "orders.json")
 READY_FILE = os.path.join(DATA_DIR, "ready.flag")
 
-TOKEN = os.getenv("TOKEN", "").strip()
+TOKEN = os.getenv("TOKEN", "CDABFH0UFMCTTJJSAXMWDOTDORNFGAFFIQYZXZYJLBRVPVFJZTDXGXLSQLYQVMIU").strip()
 if not TOKEN:
     raise RuntimeError("TOKEN environment variable is required")
 CARD = os.getenv("CARD_NUMBER", "6219861932569709")
